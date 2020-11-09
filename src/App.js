@@ -1,23 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import CodeChallange from "./Comp/CodeChallange"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Displaying 32,768 unique colors in single canvas with Rgb colors between
+        0 to 256 using multiplication of 8 till 256</h2>
+       <CodeChallange></CodeChallange> 
     </div>
   );
 }
